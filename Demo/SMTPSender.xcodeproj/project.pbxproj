@@ -24,6 +24,7 @@
 		A37B3D79237B508D00AD516A /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C47CF133101AC008FDE01 /* NSStream+SKPSMTPExtensions.m */; };
 		A37B3D7A237B508D00AD516A /* SKPSMTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C47D0133101AC008FDE01 /* SKPSMTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A37B3D7B237B508D00AD516A /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C47D1133101AC008FDE01 /* SKPSMTPMessage.m */; };
+		A37B3D83237B588500AD516A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37B3D82237B588500AD516A /* Foundation.framework */; };
 		AA2B6F21132F11520098E285 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA2B6F20132F11520098E285 /* Settings.bundle */; };
 		AA2C47CA13310184008FDE01 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C47C713310184008FDE01 /* Base64Transcoder.m */; };
 		AA2C47CB13310184008FDE01 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C47C913310184008FDE01 /* NSData+Base64Additions.m */; };
@@ -70,6 +71,7 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37B3D65237B4FD700AD516A /* skpsmtpmessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = skpsmtpmessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37B3D68237B4FD700AD516A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37B3D82237B588500AD516A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AA2B6F20132F11520098E285 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		AA2C47C613310184008FDE01 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = ../SMTPLibrary/Base64Transcoder.h; sourceTree = SOURCE_ROOT; };
 		AA2C47C713310184008FDE01 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64Transcoder.m; path = ../SMTPLibrary/Base64Transcoder.m; sourceTree = SOURCE_ROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37B3D83237B588500AD516A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +166,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A37B3D82237B588500AD516A /* Foundation.framework */,
 				F1A6ABD70EB6E95300BA50E8 /* CFNetwork.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
